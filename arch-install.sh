@@ -23,10 +23,10 @@ sleep 1
 echo "2"
 sleep 1
 echo "1"
-sleep "Go!"
+echp "Go!
 
-# do some update
-pacman --noconfirm -Syu
+
+"
 
 # list of packages
 packages=(git bspwm dunst picom polybar rofi sxhkd network-manager-applet blueman
