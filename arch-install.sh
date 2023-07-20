@@ -22,7 +22,7 @@ sleep 3
 # list of packages
 packages=(bspwm dunst picom polybar rofi sxhkd network-manager-applet blueman
 	ttf-nerd-fonts-symbols ttf-jetbrains-mono rxvt-unicode thunar lxappearance
-	sxiv feh)
+	sxiv feh polkit-gnome)
 
 # check if the package, exsits... if not install
 for package in ${packages[@]}; do
