@@ -1,0 +1,54 @@
+! ##############################
+!	TERMINAL SETTINGS
+! ##############################
+
+! Terminal Font
+URxvt*font:		xft:JetBrains Mono:pixelsize=12
+
+! Internal spacing
+URxvt*internalBorder:	15
+
+! Scrollbar
+URxvt*scrollBar:	false
+
+! ################################
+!	TERMINAL COLOR SCHEME
+! ################################
+
+! special
+*.foreground:   #091b2c
+*.background:   #fcedc5
+*.cursorColor:  #091b2c
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #6f1e1e
+*.color9:       #9c4646
+
+! green
+*.color2:       #4a4e25
+*.color10:      #818a27
+
+! yellow
+*.color3:       #8d5128
+*.color11:      #ae8534
+
+! blue
+*.color4:       #234c6e
+*.color12:      #38688f
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #41795a
+*.color14:      #639873
+
+! white
+*.color7:       #2b323a
+*.color15:      #3e454f
+
