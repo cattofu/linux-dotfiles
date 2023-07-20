@@ -17,7 +17,16 @@ LEARN MORE AT https://www.gnu.org/licenses/gpl-3.0.en.html
 
 "
 
-sleep 3
+echo "Installation Would Began in..." 
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep "Go!"
+
+# do some update
+pacman --noconfirm -Syu
 
 # list of packages
 packages=(git bspwm dunst picom polybar rofi sxhkd network-manager-applet blueman
@@ -29,7 +38,7 @@ for package in ${packages[@]}; do
 	if pacman -Qs ${package} > /dev/null; then
 		echo "${package} has been installed, skipping..."
 	else
-		pacman -S ${package}
+		pacman --noconfirm -S ${package}
 	fi
 done
 
